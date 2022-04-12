@@ -98,7 +98,7 @@ An Upload in the asynchronous mode requires dedicated server handlers to store a
 ```
 {% endif %}
 ```Controller
-public IWebHostingEnvironment WebHostEnvironment { get; set; }
+public IWebHostEnvironment WebHostEnvironment { get; set; }
 
 public UploadController(IWebHostEnvironment webHostEnvironment)
 {
